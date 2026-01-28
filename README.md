@@ -2,22 +2,32 @@
 
 ## Introduction 
 
-The car dataset contains detailed information on a wide range of vehicles, including technical specifications, pricing, and fuel efficiency metrics. Key attributes include manufacturer suggested retail price (MSRP), engine horsepower (HP), drivetrain configuration, transmission type, vehicle size, and city and highway fuel economy. The dataset spans multiple manufacturers and vehicle segments, offering a broad view of the automotive market.
+The car dataset contains detailed information on a wide range of vehicles, including technical specifications, pricing, and fuel efficiency metrics. Key attributes include manufacturer suggested retail price (MSRP), engine horsepower (HP), drivetrain configuration, transmission type, vehicle size, and city and highway fuel economy. The dataset spans multiple manufacturers and vehicle segments, offering a broad view of the automotive market. The analysis focuses on vehicles manufactured from 1995 onwards and applies data cleaning, feature engineering, exploratory data analysis (EDA), and visualization techniques using Python.
 
 ## Dataset
-...
+
+Source: public car dataset 
+Size: ~ 11,000 vehicles
+Time span: 1995+
 
 ## Objectives
 
-The primary objective is to understand how vehicle characteristics influence manufacturer suggested retail price (MSRP) and fuel efficiency, and to identify trade-offs inherent in vehicle design and configuration. 
-
+- clean dataset incl. handling missing values and filtering by model year
+- engineer neaningful features such as total miles per gallon (MPG) and price per HP
+- understand how vehicle characteristics influence manufacturer suggested retail price (MSRP) and fuel efficiency
+- identify patterns across vehicle size, drivetrain, and engine performance 
 
 ## Methodology
 
-The dataset was filtered to include vehicles from model year 1995 onward, and records with missing values were removed to ensure data quality. This prepared dataset supports meaningful comparisons across vehicle categories and enables analysis of relationships between performance, pricing, and fuel economy.
+- remove or impute missing values based on proportion and analytical relevance
+- filter the dataset to include vehicles from model year 1995 and later
+- standardize categorical text fields for cosistency
+- create derived features to capture efficiency and pricing dynamics
+- use descriptive statistics, grouping, correlation analysis, and visualization to identify patterns 
 
 
 ## Visualizations
+
 
 
 ## Key Insights
