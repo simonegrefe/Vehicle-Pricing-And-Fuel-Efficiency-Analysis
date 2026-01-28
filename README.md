@@ -26,6 +26,15 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 - use descriptive statistics, grouping, correlation analysis, and visualization to identify patterns 
 
 
+## Used Technologies & Tools
+
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupiter Notebook / Google Colab 
+
+
 ## Visualizations
 
 ### Average MSRP by Vehicle Size
@@ -44,13 +53,9 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 
 
 ### Distribution of City MPG
-*
+Frequency of City Miles Per Gallon*
 
-
-
-### Average City and Highway MPG by TRansmission Type
-*
-
+![Distribution of City MPG](visuals/Distribution-of-City-MPG.png)
 
 
 
@@ -61,16 +66,31 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 
 
 
-## Key Insights
+### Average City and Highway MPG by Transmission Type
+*Trends in average City MPG and Highway MPG for different Transmission Types*
 
-The analysis shows clear relationships between vehicle characteristics, pricing, and efficiency. MSRP increases with both vehicle size and engine performance: large vehicles have the highest average MSRP (approximately $56,000), followed by midsize (about $41,000) and compact vehicles (about $38,000). Engine horsepower (HP) is strongly correlated with MSRP (r ≈ 0.65), with vehicles under 200 HP typically priced below $50,000, while vehicles exceeding 600 HP often surpass $300,000. Drivetrain choice further affects pricing, as rear-wheel drive and all-wheel drive vehicles have higher median MSRPs (around $44,000 and $43,000) than front-wheel drive vehicles (approximately $27,000).
+![AVG City and Highway MPG by Transmission Type](visuals/AVG-City-and-Highway-MPG-by-Transmission-Type.png)
 
-Fuel efficiency trends highlight important design trade-offs. City MPG values are mostly concentrated between 15 and 25 MPG, with a right-skewed distribution driven by a small number of highly efficient vehicles. Transmission type influences efficiency, with manual transmissions averaging approximately 20 MPG city and 28 MPG highway, slightly outperforming automatic transmissions (19 MPG city, 26 MPG highway). Direct-drive transmissions exhibit exceptionally high MPG values, reflecting electric powertrains rather than conventional combustion engines.
+
+
+
+## Insights
+
+The analysis shows clear relationships between vehicle characteristics, pricing, and efficiency. 
+
+- MSRP increases with both vehicle size and engine performance: large vehicles have the highest average MSRP (approximately $56,000), followed by midsize (about $41,000) and compact vehicles (about $38,000). 
+- Engine horsepower (HP) is strongly correlated with MSRP (r ≈ 0.65), with vehicles under 200 HP typically priced below $50,000, while vehicles exceeding 600 HP often surpass $300,000.
+- Drivetrain choice further affects pricing, as rear-wheel drive and all-wheel drive vehicles have higher median MSRPs (around $44,000 and $43,000) than front-wheel drive vehicles (approximately $27,000).
+- Fuel efficiency trends highlight important design trade-offs. City MPG values are mostly concentrated between 15 and 25 MPG, with a right-skewed distribution driven by a small number of highly efficient vehicles.
+- Transmission type influences efficiency, with manual transmissions averaging approximately 20 MPG city and 28 MPG highway, slightly outperforming automatic transmissions (19 MPG city, 26 MPG highway). Direct-drive transmissions exhibit exceptionally high MPG values, reflecting electric powertrains rather than conventional combustion engines.
 
 
 ## Recommendations
 
-Based on the findings, consumers seeking lower purchase costs and better fuel efficiency may benefit from choosing smaller, front-wheel drive vehicles with manual or efficient automatic transmissions. Manufacturers aiming to balance performance and affordability should consider optimizing horsepower gains against fuel economy losses, particularly in midsize vehicle segments. From a policy and sustainability perspective, the strong efficiency performance of direct-drive (electric) vehicles suggests continued investment and development in electric powertrain technologies could significantly improve overall fleet fuel efficiency.
+- Based on the findings, consumers seeking lower purchase costs and better fuel efficiency may benefit from choosing smaller, front-wheel drive vehicles with manual or efficient automatic transmissions. 
+- Manufacturers aiming to balance performance and affordability should consider optimizing horsepower gains against fuel economy losses, particularly in midsize vehicle segments.
+- From a policy and sustainability perspective, the strong efficiency performance of direct-drive (electric) vehicles suggests continued investment and development in electric powertrain technologies could significantly improve overall fleet fuel efficiency.
+
 
 
 
