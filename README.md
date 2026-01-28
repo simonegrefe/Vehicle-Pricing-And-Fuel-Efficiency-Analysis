@@ -31,21 +31,33 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 ### Average MSRP by Vehicle Size
 *Pricing differences across market segments*
 
-![AVG MSRP by Vehicle Size](visuals/AVGMSRP_by_Vehicle_Size.png)
+![AVG MSRP by Vehicle Size](visuals/AVG-MSRP-by-Vehicle-Size.png)
 
 
 
 ### Engine HP vs MSRP
+*Relationship between vehicle performance and price*
+
+![Engine HP vs MSRP](visuals/Engine-HP-vs-MSRP.png)
 
 
-### Distribution  of City MPG
+
+
+### Distribution of City MPG
+*
+
 
 
 ### Average City and Highway MPG by TRansmission Type
+*
+
+
 
 
 ### Distribution of MSRP by Driven Wheels - log scale
+*Pricing differences across drivetrain configurations*
 
+![Distribution of MSRP by Driven Wheels - log scale](visuals/Distribution-of-MSRP-by-Driven-Wheels-log-scale.png)
 
 
 
