@@ -1,23 +1,23 @@
 # Car Market Analysis: Engine Performance, Pricing & Fuel Efficiency
 
-## Introduction 
+## 🚗 Introduction 
 
 The car dataset contains detailed information on a wide range of vehicles, including technical specifications, pricing, and fuel efficiency metrics. Key attributes include manufacturer suggested retail price (MSRP), engine horsepower (HP), drivetrain configuration, transmission type, vehicle size, and city and highway fuel economy. The dataset spans multiple manufacturers and vehicle segments, offering a broad view of the automotive market. The analysis focuses on vehicles manufactured from 1995 onwards and applies data cleaning, feature engineering, exploratory data analysis (EDA), and visualization techniques using Python.
 
-## Dataset
+## 🗂️ Dataset
 
 - Source: public car dataset
 - Size: ~ 11,000 vehicles
 - Time span: 1995+
 
-## Objectives
+## 🎯 Objectives
 
 - clean dataset incl. handling missing values and filtering by model year
 - engineer neaningful features such as total miles per gallon (MPG) and price per HP
 - understand how vehicle characteristics influence manufacturer suggested retail price (MSRP) and fuel efficiency
 - identify patterns across vehicle size, drivetrain, and engine performance 
 
-## Methodology
+## ⚙️ Methodology
 
 - remove or impute missing values based on proportion and analytical relevance
 - filter the dataset to include vehicles from model year 1995 and later
@@ -26,7 +26,7 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 - use descriptive statistics, grouping, correlation analysis, and visualization to identify patterns 
 
 
-## Used Technologies & Tools
+## 🧩 Technologies & Tools
 
 - Python
 - Pandas
@@ -35,13 +35,12 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 - Jupiter Notebook / Google Colab 
 
 
-## Visualizations
+## 📊 Visualizations
 
 ### Average MSRP by Vehicle Size
 *Pricing differences across market segments*
 
 ![AVG MSRP by Vehicle Size](visuals/AVG-MSRP-by-Vehicle-Size.png)
-
 
 
 ### Engine HP vs MSRP
@@ -50,20 +49,16 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 ![Engine HP vs MSRP](visuals/Engine-HP-vs-MSRP.png)
 
 
-
-
 ### Distribution of City MPG
 Frequency of City Miles Per Gallon*
 
 ![Distribution of City MPG](visuals/Distribution-of-City-MPG.png)
 
 
-
 ### Distribution of MSRP by Driven Wheels - log scale
 *Pricing differences across drivetrain configurations*
 
 ![Distribution of MSRP by Driven Wheels - log scale](visuals/Distribution-of-MSRP-by-Driven-Wheels-log-scale.png)
-
 
 
 ### Average City and Highway MPG by Transmission Type
@@ -74,7 +69,7 @@ Frequency of City Miles Per Gallon*
 
 
 
-## Insights
+## 🔍 Insights
 
 The analysis shows clear relationships between vehicle characteristics, pricing, and efficiency. 
 
@@ -85,12 +80,35 @@ The analysis shows clear relationships between vehicle characteristics, pricing,
 - Transmission type influences efficiency, with manual transmissions averaging approximately 20 MPG city and 28 MPG highway, slightly outperforming automatic transmissions (19 MPG city, 26 MPG highway). Direct-drive transmissions exhibit exceptionally high MPG values, reflecting electric powertrains rather than conventional combustion engines.
 
 
-## Recommendations
+## 💡 Recommendations
 
 - Based on the findings, consumers seeking lower purchase costs and better fuel efficiency may benefit from choosing smaller, front-wheel drive vehicles with manual or efficient automatic transmissions. 
 - Manufacturers aiming to balance performance and affordability should consider optimizing horsepower gains against fuel economy losses, particularly in midsize vehicle segments.
 - From a policy and sustainability perspective, the strong efficiency performance of direct-drive (electric) vehicles suggests continued investment and development in electric powertrain technologies could significantly improve overall fleet fuel efficiency.
 
+
+## 🗂️  Directory Structure
+
+├── raw-data/
+│      ├── car-dataset.csv
+│
+├── analysis/
+│      ├── car-market-analysis.ipynb
+│
+├── visuals/
+│      └── AVG-City-and-Highway-MPG-by-Transmission-Type.png
+│      └── AVG-MSRP-by-Vehicle-Size.png
+│      └── Distribution-of-City-MPG.png
+│      └── Distribution-of-MSRP-by-Driven-Wheels-log-scale.png
+│      └── Engine-HP-vs-MSRP.png
+│
+├── README.md
+│
+└── .gitattributes
+
+## 🪪 License
+
+This project is licensed for **educational and demonstration purposes only**. All data used is **fictional** and does not represent real business information.
 
 
 
