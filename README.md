@@ -89,6 +89,7 @@ The analysis shows clear relationships between vehicle characteristics, pricing,
 
 ## 🗂️  Directory Structure
 
+```
 ├── raw-data/
 │      ├── car-dataset.csv
 │
@@ -105,6 +106,7 @@ The analysis shows clear relationships between vehicle characteristics, pricing,
 ├── README.md
 │
 └── .gitattributes
+```
 
 ## 🪪 License
 
