@@ -1,4 +1,4 @@
-# Car Market Analysis - Engine Performance, Pricing & Fuel Efficiency
+# Car Market Analysis: Engine Performance, Pricing & Fuel Efficiency
 
 ## Introduction 
 
@@ -6,9 +6,9 @@ The car dataset contains detailed information on a wide range of vehicles, inclu
 
 ## Dataset
 
-Source: public car dataset 
-Size: ~ 11,000 vehicles
-Time span: 1995+
+- Source: public car dataset
+- Size: ~ 11,000 vehicles
+- Time span: 1995+
 
 ## Objectives
 
